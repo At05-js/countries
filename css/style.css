@@ -1,12 +1,19 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
+    margin: 0;
 }
-h1 {
-    color: green;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
-p{
+#mainHeader {
+    background: #333;
+    color: white;
+}
+p {
     border-top: 5px solid blue;
     border-right: 2px dotted green;
     border-bottom: 5px dashed red;
