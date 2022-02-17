@@ -1,0 +1,24 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/At05-js/countries.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/At05-js/countries/issues"
+  },
+  "homepage": "https://github.com/At05-js/countries#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pa11y": "^6.1.1"
+  }
+}
