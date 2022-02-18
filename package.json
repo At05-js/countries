@@ -1,24 +1,19 @@
 {
-  "name": "front",
+  "name": "yarn-crash",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "https://github.com/At05-js/countries.git",
+  "license": "MIT",
   "scripts": {
-    "start": "node index"
+    "go": "node index.js",
+    "removeModules": "rm -rf node_modules/",
+    "installModules": "yarn install"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/At05-js/countries.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/At05-js/countries/issues"
-  },
-  "homepage": "https://github.com/At05-js/countries#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "pa11y": "^6.1.1"
-  }
+    "bootstrap": "^5.1.3",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {}
 }
